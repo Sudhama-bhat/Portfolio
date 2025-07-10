@@ -1,0 +1,6 @@
+[build]
+  command = "npm install --legacy-peer-deps && npm run build"
+  publish = "dist"  # or "build" for React
+
+[build.environment]
+  NODE_VERSION = "20.12.2"
