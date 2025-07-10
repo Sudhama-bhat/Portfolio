@@ -366,13 +366,20 @@ export default function Portfolio() {
             >
               View Projects
             </Button>
-            <Button
-              variant="outline"
-              className="border-gray-600 text-gray-300 hover:bg-gray-800 hover:border-blue-400 px-8 py-3 text-lg bg-transparent transition-all duration-300 hover:scale-105"
+            <a
+              href="/Sudhama_Resume.pdf"
+              download
+              target="_blank"
+              rel="noopener noreferrer"
             >
-              <Download className="w-5 h-5 mr-2" />
-              Resume
-            </Button>
+              <Button
+                variant="outline"
+                className="border-gray-600 text-gray-300 hover:bg-gray-800 hover:border-blue-400 px-8 py-3 text-lg bg-transparent transition-all duration-300 hover:scale-105 flex items-center"
+              >
+                <Download className="w-5 h-5 mr-2" />
+                Resume
+              </Button>
+            </a>
           </div>
 
           <div className="flex justify-center space-x-6 animate-fade-in-up" style={{ animationDelay: "0.4s" }}>
